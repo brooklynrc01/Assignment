@@ -1,0 +1,99 @@
+{
+  "source": "Open-Meteo Forecast API",
+  "retrieved_at_utc": "2026-11-17T16:02:03.358138+00:00",
+  "location": {
+    "name": "Indianapolis, IN",
+    "latitude": 39.766758,
+    "longitude": -86.14396,
+    "timezone": "America/Indiana/Indianapolis"
+  },
+  "period": {
+    "start_date": "2026-11-17",
+    "end_date": "2026-11-23",
+    "days": 7
+  },
+  "units": {
+    "temperature": "C",
+    "precipitation": "mm",
+    "time": "iso8601",
+    "temperature_2m_mean": "°C",
+    "temperature_2m_min": "°C",
+    "temperature_2m_max": "°C",
+    "precipitation_sum": "mm",
+    "weather_code": "wmo code"
+  },
+  "summary": {
+    "average_daily_mean_temperature_c": 9.8,
+    "lowest_daily_minimum_c": -0.6,
+    "highest_daily_maximum_c": 18.5,
+    "total_precipitation_mm": 6.3,
+    "warmest_day": {
+      "date": "2026-11-21",
+      "maximum_temperature_c": 18.5
+    }
+  },
+  "data_quality": {
+    "expected_days": 7,
+    "days_returned": 7,
+    "missing_measurements": 0,
+    "warnings": []
+  },
+  "days": [
+    {
+      "date": "2026-11-17",
+      "mean_temperature_c": 4.5,
+      "minimum_temperature_c": -0.6,
+      "maximum_temperature_c": 12.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 45
+    },
+    {
+      "date": "2026-11-18",
+      "mean_temperature_c": 7.0,
+      "minimum_temperature_c": 0.1,
+      "maximum_temperature_c": 16.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3
+    },
+    {
+      "date": "2026-11-19",
+      "mean_temperature_c": 9.7,
+      "minimum_temperature_c": 3.6,
+      "maximum_temperature_c": 16.6,
+      "precipitation_mm": 0.0,
+      "weather_code": 3
+    },
+    {
+      "date": "2026-11-20",
+      "mean_temperature_c": 11.8,
+      "minimum_temperature_c": 7.6,
+      "maximum_temperature_c": 17.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 1
+    },
+    {
+      "date": "2026-11-21",
+      "mean_temperature_c": 12.9,
+      "minimum_temperature_c": 8.6,
+      "maximum_temperature_c": 18.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 3
+    },
+    {
+      "date": "2026-11-22",
+      "mean_temperature_c": 13.8,
+      "minimum_temperature_c": 12.1,
+      "maximum_temperature_c": 15.9,
+      "precipitation_mm": 4.6,
+      "weather_code": 80
+    },
+    {
+      "date": "2026-11-23",
+      "mean_temperature_c": 8.6,
+      "minimum_temperature_c": 5.8,
+      "maximum_temperature_c": 12.3,
+      "precipitation_mm": 1.7,
+      "weather_code": 51
+    }
+  ]
+}

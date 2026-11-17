@@ -1,0 +1,91 @@
+{
+  "source": "Open-Meteo Forecast API",
+  "retrieved_at_utc": "2026-11-17T16:02:03.358138+00:00",
+  "request": {
+    "latitude": 39.7684,
+    "longitude": -86.1584,
+    "daily_fields": [
+      "temperature_2m_mean",
+      "temperature_2m_min",
+      "temperature_2m_max",
+      "precipitation_sum",
+      "weather_code"
+    ],
+    "forecast_days": 7,
+    "timezone": "auto"
+  },
+  "location_name": "Indianapolis, IN",
+  "response": {
+    "latitude": 39.766758,
+    "longitude": -86.14396,
+    "generationtime_ms": 0.40161609649658203,
+    "utc_offset_seconds": -18000,
+    "timezone": "America/Indiana/Indianapolis",
+    "timezone_abbreviation": "GMT-5",
+    "elevation": 219.0,
+    "daily_units": {
+      "time": "iso8601",
+      "temperature_2m_mean": "°C",
+      "temperature_2m_min": "°C",
+      "temperature_2m_max": "°C",
+      "precipitation_sum": "mm",
+      "weather_code": "wmo code"
+    },
+    "daily": {
+      "time": [
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-23"
+      ],
+      "temperature_2m_mean": [
+        4.5,
+        7.0,
+        9.7,
+        11.8,
+        12.9,
+        13.8,
+        8.6
+      ],
+      "temperature_2m_min": [
+        -0.6,
+        0.1,
+        3.6,
+        7.6,
+        8.6,
+        12.1,
+        5.8
+      ],
+      "temperature_2m_max": [
+        12.5,
+        16.1,
+        16.6,
+        17.5,
+        18.5,
+        15.9,
+        12.3
+      ],
+      "precipitation_sum": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.6,
+        1.7
+      ],
+      "weather_code": [
+        45,
+        3,
+        3,
+        1,
+        3,
+        80,
+        51
+      ]
+    }
+  }
+}

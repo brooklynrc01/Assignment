@@ -1,0 +1,14 @@
+{
+  "run_date_utc": "2026-11-17",
+  "local_files": {
+    "raw": "C:\\Users\\brook\\DA-Make-Up-Assignment\\artifacts\\raw_weather.json",
+    "processed": "C:\\Users\\brook\\DA-Make-Up-Assignment\\artifacts\\processed_weather.json",
+    "html": "C:\\Users\\brook\\DA-Make-Up-Assignment\\artifacts\\weather_summary.html"
+  },
+  "gcs": {
+    "bucket": null,
+    "prefix": "weather",
+    "status": "disabled",
+    "reason": "UPLOAD_TO_GCS is not enabled."
+  }
+}
